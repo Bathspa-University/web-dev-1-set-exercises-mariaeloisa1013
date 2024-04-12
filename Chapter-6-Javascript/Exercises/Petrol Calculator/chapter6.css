@@ -1,0 +1,51 @@
+body{
+    background-image: url(wallpaper.jpeg); /*background image*/
+    font-family: "Syne", sans-serif; /*font styles*/
+    font-size: 200%; /*larger size*/
+}
+
+
+h1{
+    text-align: center; /*text alignment*/
+    font-size: 100%;
+}
+
+input{
+    text-align: right;
+}
+
+.calculator{
+    padding-left: 30px; /*text space*/
+    margin-top: 5%;
+    margin-right: 60%;
+    margin-left: 2%;
+    position: relative;
+    box-shadow: 0px 0px 10px black; /*shadow effect*/
+    border-radius: 30px; /*rounded corners*/
+    flex:1; /*sace distribution*/
+}
+
+button, p{
+    display :inline; /*align text horizontically*/
+}
+
+button{
+    padding:10px;
+    border-radius: 20px;
+    font-size: 60%;
+    margin-right: 30px;
+    background-color: rgb(212, 77, 77);
+}
+
+button:hover, button:focus{
+    background-color: rgb(96, 171, 96); /*hover and focus effects*/
+}
+
+
+.calculator div{
+    padding-left: 30%;
+}
+
+.total{
+    color: rgb(212, 77, 77); 
+}

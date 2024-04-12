@@ -1,0 +1,83 @@
+body{
+  background-color: black; /*set page bg color*/
+  color: white; /*set font color*/
+  font-family: "Inter Tight", sans-serif; /*call font style*/
+  font-optical-sizing: auto;
+  font-weight: 200; 
+  font-style: normal;
+}
+
+h1{
+    font-family: "Pinyon Script"; /*specify diff font style for title*/
+    font-weight: 400;
+    font-size: 500%;
+    margin-bottom: 0; /*remove margin*/
+}
+
+h1, h5{
+  display: inline; /*format heading tags into one line*/
+}
+
+section h1{
+  margin-left: 15%; /*indent title*/
+}
+
+section img{
+  width: 100%; /*full size image*/
+  margin-top: 40px; 
+  margin-bottom: 20px;
+  margin-left: 0;
+  box-shadow: 0px 0px 30px rgb(106, 106, 106); /*style container with shadow*/
+  border-radius: 50px; /*curve image corners*/
+}
+
+nav a{
+  color: white; /*link font to white*/
+  padding: 10px; 
+  margin:10px;
+  font-family: "Inter Tight", sans-serif; /*specify dont style*/
+  text-decoration: none; /*remove default underline in link*/
+  font-size: 100%; /*increase size*/
+}
+
+nav a:hover{
+  background-color: rgb(106, 106, 106); /*change color when hovered*/
+}
+
+.body{
+  display:flex; /*flex box*/
+  flex-direction: row; /*arrange divisions vertically*/
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.info{
+  margin-right: 20px;
+}
+
+.poster img{
+  margin-left: 10%;
+  width: 40vw
+}
+
+.Details p, .Cast p, .Creatives p{
+  margin-left: 15px;
+}
+
+
+.Reviews h2{
+  text-align: center; /*center align text*/
+}
+
+.Reviews section{
+  padding: 20px; /*add item spacing*/
+  margin: 20px;
+  box-shadow: 0px 0px 30px rgb(106, 106, 106);
+  border-radius: 50px;
+}
+
+.Reviews div{
+  display: flex; /*arrange reviews in rows*/
+  flex-direction: row;
+}
+

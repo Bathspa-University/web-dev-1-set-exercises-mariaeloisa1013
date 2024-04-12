@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS programming guide</title>
+    <link rel ="stylesheet" href="bonus1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- font style embedded code from google fonts; to use throughout document -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <br><h1><b>💻 <u>HTML & CSS PROGRAMMING GUIDE </u>  💻</b></h1>       
+    </header>
+
+    <br>
+
+    <section>
+        <div class="HTML">
+            <h2>HTML TAGS</h2>
+            <ul>
+                <li>
+                    <pre><code>&lt;p&gt;</code> Paragraph Element <code>&lt;/p&gt;</code></pre>
+                    <p>- contains and displays a block of text<br>
+                    <u>how to use:  add <code>&lt;p&gt;</code> before and after text</u></p>
+                    <p><i>output:</i></p>
+                    <p>Paragraph Element</p>
+                </li>
+
+                <li>
+                    <pre><code>&lt;ol&gt;</code> Ordered List Element <code>&lt;/ol&gt;</code></pre>
+                    <p>- creates a list of items in sequential order<br>
+                    <u>how to use:  encode <code>&lt;ol&gt;</code>, then <code>&lt;li&gt;</code> on per item in your list  </u></p>
+                    <p><i>output:</i></p>
+                    <ol><li style="list-style-type: decimal;">Ordered List Element</li></ol>
+                </li>
+
+                <li>
+                    <pre><code>&lt;ul&gt;</code> Unordered List Element <code>&lt;/ul&gt;</code></pre>
+                    <p>- creates a list of items in no particular order<br>
+                    <u>how to use:  encode <code>&lt;ul&gt;</code>, then <code>&lt;li&gt;</code> on per item in your list  </u></p>
+                    <p><i>output:</i></p>
+                    <ul><li style="list-style-type: disc;">Ordered List Element</li></ul>
+                </li>
+
+                <li>
+                    <pre><code>&lt;h1&gt;</code> Heading Element <code>&lt;/h1&gt;</code></pre>
+                    <p>- defines a heading<br>
+                    <u>how to use:  add tags from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> to a text;<br>
+                       each tag number differentiates in size</u></p>
+                    <p><i>output:</i></p>
+                    <h1>Heading Element</h1>
+                </li>
+
+                <li>
+                    <pre><code>&lt;br&gt;</code> Line Break Element <code>&lt;br&gt;</code></pre>
+                    <p>- create a line break in text and is especially useful where a division of text is required<br>
+                    <u>how to use:  encode <code>&lt;br&gt;</code> on space wanted. It does not have a closing tag</u></p>
+                    <p><i>output:</i></p>
+                    <br>Line Break Element<br>
+                </li>
+
+                <li>
+                    <pre><code>&lt;b&gt;</code> Bold Element <code>&lt;/b&gt;</code></pre>
+                    <p>-  defines bold text, without any extra importance<br>
+                    <u>how to use:  add <code>&lt;b&gt;</code> before and after to thicken</u></p>
+                    <p><i>output:</i></p>
+                    <b>Bold Element</b>
+                </li>
+
+                <li>
+                    <pre><code>&lt;i&gt;</code> Italicize Element <code>&lt;/i&gt;</code></pre>
+                    <p>-  defines a part of text in an alternate voice or mood<br>
+                    <u>how to use:  add <code>&lt;i&gt;</code> before and after to italicize</u></p>
+                    <p><i>output:</i></p>
+                    <i>Italicize Element</i>
+                </li>
+
+                <li>
+                    <pre><code>&lt;del&gt;</code> Delete Element <code>&lt;/del&gt;</code></pre>
+                    <p>-  defines text that has been deleted from a document<br>
+                    <u>how to use:  add <code>&lt;del&gt;</code> before and after to strikethrough</u></p>
+                    <p><i>output:</i></p>
+                    <del>Delete Element</del>
+                </li>
+
+                <li>
+                    <pre><code>&lt;sub&gt;</code> Subscript Element <code>&lt;/sub&gt;</code></pre>
+                    <p>-  defines subscript text; half a character below the normal line<br>
+                    <u>how to use:  add <code>&lt;sub&gt;</code> before and after for subscript</u></p>
+                    <p><i>output:</i></p>
+                    <sub>Subscript Element</sub>
+                </li>
+
+                <li>
+                    <pre><code>&lt;sup&gt;</code> Superscript Element <code>&lt;/sup&gt;</code></pre>
+                    <p>-  defines superscript text; half a character above the normal line<br>
+                    <u>how to use:  add <code>&lt;sup&gt;</code> before and after for superscript</u></p>
+                    <p><i>output:</i></p>
+                    <sup>Superscript Element</sup>
+                </li>
+            </ui>    
+        </div>
+
+        <div class="CSS">
+            <h2>CSS TAGS</h2>  
+            <ul>
+                <li>
+                    <pre><code> { </code>Background-Color<code>: color} </code></pre>
+                    <p>- sets the background color of the element<br>
+                    <u>how to use:  add <code>{background-color: [selected color] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {background-color: grey;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Border-Color<code>: color} </code></pre>
+                    <p>- sets the color of the border<br>
+                    <u>how to use:  add <code>{border-color: [selected color] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {border-color: grey;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Box-Shadow<code>: #px #px} </code></pre>
+                    <p>- adds a shadow effect to an element<br>
+                    <u>how to use:  add <code>{box-shadow: [selected px size] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {box-shadow: 10px 10px;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Margin<code>: #px} </code></pre>
+                    <p>- specifies spacing outside an element<br>
+                    <u>how to use:  add <code>{margin: [selected px size] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {margin: 40px;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Padding<code>: #px} </code></pre>
+                    <p>- specifies the space between the content and the border of an element<br>
+                    <u>how to use:  add <code>{padding: [selected px size] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {padding: 40px;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Color<code>: color} </code></pre>
+                    <p>- specifies the color of text in an element<br>
+                    <u>how to use:  add <code>{color: [selected color] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {color: white;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Font-Size<code>: #px} </code></pre>
+                    <p>- sets the size of the font for an element<br>
+                    <u>how to use:  add <code>{Font-Size: [selected px size] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {font-size: 15px;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Font-Style<code>: style} </code></pre>
+                    <p>- set the font style to normal, italic, or oblique<br>
+                    <u>how to use:  add <code>{font-style: [normal/italic/oblique] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {font-style: italic;}</p>
+                </li>
+
+                <li>
+                    <pre><code> { </code>Text-Align<code>: style} </code></pre>
+                    <p>- sets the alignment of text inside an element<br>
+                    <u>how to use:  add <code>{text-align: [left/center/right/justify] }</code> after a selector </u></p>
+                    <p><i>code:</i></p>
+                    <p>selector {text-align: center;}</p>
+                </li>
+
+
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    font-family: 'Montserrat', sans-serif; /*set page font*//
+}
+
+header{
+    margin: 40px; /*set heaeder margin space*/
+}
+
+header h1{
+    color: black; /*font color*/
+    padding-bottom: 0; /*remove space in between*/
+    margin-bottom: 0;
+    text-align: center; /*align center items*/
+    font-size: 300%; /*larger size*/
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h6{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.images{
+    display: flex; /*flex box*/
+    flex-wrap:wrap; /*wrap items*/
+    justify-content: center; 
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row; /*align items in containerby row*/
+}
+
+
+.images img{
+    border-radius: 30px; /*curve edges of img*/
+    box-shadow: 3px 1px 30px black;
+    margin: 40px;
+}
+
+figcaption{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.saturate img{
+    filter: saturate(200%) /*saturate filter*/
+}
+
+.grayscale img{
+    filter: grayscale(100%) /*black and white filter*/
+}
+
+.invert img{
+    filter: invert(80%); /*invert color filter*/
+    margin-top:10%;
+}

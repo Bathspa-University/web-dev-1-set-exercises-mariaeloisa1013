@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="chapter1.css"> <!--reference link to stylesheet-->
+    <title>Recipe Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--reference link to fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">  <!--2 main divisions for the page-->
+        <div class="spag">  <!--first division: whole image-->
+            <img src="spag.jpg" alt="spaghetti image">
+        </div>
+        <div class="recipe">  <!--second division: containing recipe-->
+            <!-- navigation bar -->
+            <div class="navigation">
+                <a href="#description">❓ About the Dish</a> <!--link id to each section of the -->
+                <a href="#ingredients">🍝 The Ingredients</a>
+                <a href="#method">🧑‍🍳 The Method</a>
+            </div>
+ 
+            <br>
+
+            <div class="description" id="description">  <!--food description-->
+                <br>
+                <h1>SPAGHETTI AND MEATBALLS</h1>
+                <p>🍝 The all-time-favorite <b>spaghetti with meatballs</b> will always be classic. Now imagine that,<br> but with an Italian twist of your own perfectly cooked pasta with your own <u>home-made special marinara sauce</u></p>
+                <br>
+            </div>
+
+            <br>
+
+            <div class = "ingredients" id="ingredients"> <!--ingredients div-->
+                <h2>🍝 THE INGREDIENTS 🍝</h2>
+                <div class="ingredients-category">
+                    <div class="leftside"> <!--1st sub division of ingredients div-->
+                        <div>
+                            <p>for the pasta</p> <!--p for each unordered list of ingredients header-->
+                            <ul>
+                                <li><input type="checkbox">1 1/2 pounds dry 100% thin semolina spaghetti</li>
+                                <li><input type="checkbox">Salt, for the pasta water</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>for the sauce</p>
+                            <ul>
+                                <li><input type="checkbox">2 tablespoons extra virgin olive oil</li>
+                                <li><input type="checkbox">1/2 sweet yellow onion, chopped</li>
+                                <li><input type="checkbox">3 cloves garlic, chopped</li>
+                                <li><input type="checkbox">1 cup very finely chopped carrots</li>
+                                <li><input type="checkbox">1 cup chopped cremini brown mushrooms</li>
+                                <li><input type="checkbox">3 tablespoons tomato paste</li>
+                                <li><input type="checkbox">2 (28-ounce) cans Italian plum tomatoes</li>
+                                <li><input type="checkbox">1/4 cup chopped fresh Italian parsley</li>
+                                <li><input type="checkbox">1/4 cup chopped fresh basil</li>
+                                <li><input type="checkbox">1/4 cup red wine</li>
+                                <li><input type="checkbox">1/4 cup grated Parmesan-Romano cheese blend</li>
+                                <li><input type="checkbox">Salt, to taste (about 1 teaspoon)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rightside"> <!--2nd sub division of ingredients div-->
+                        <div>
+                            <p>for the meatball</p>
+                            <ul>
+                                <!--unnordered list with checkboxes-->
+                                <li><input type="checkbox">1 pound ground beef (at least 16% fat)</li>
+                                <li><input type="checkbox">1/2 pound fresh bulk Italian-style pork sausage</li>
+                                <li><input type="checkbox">2 tablespoons finely chopped basil</li>
+                                <li><input type="checkbox">2 tablespoons finely chopped Italian parsley</li>
+                                <li><input type="checkbox">1/2 cup finely chopped cremini brown mushrooms</li>
+                                <li><input type="checkbox">2 large eggs</li>
+                                <li><input type="checkbox">3/4 cup unseasoned breadcrumbs</li>
+                                <li><input type="checkbox">1/4 cup grated Parmesan-Romano cheese blend</li>
+                                <li><input type="checkbox">2 teaspoons sea salt</li>
+                                <li><input type="checkbox">2 teaspoons fresh ground black pepper</li>
+                                <li><input type="checkbox">1 tablespoon extra virgin olive oil</li>
+                                <li><input type="checkbox">1 splash red wine</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="method" id="method">
+                <h2>🧑‍🍳 THE METHOD 🧑‍🍳</h2> <!--recipe steps-->
+                    <div>
+                        <p>prepare the sauce</p>
+                        <ol> <!--ordered list for sequence of steps-->
+                            <li>Heat olive oil in a 4 to 5-quart pot over medium-high heat.</li>
+                            <li>Add onions and cook for 2 minutes, then add garlic and cook for 30 seconds longer.</li>
+                            <li>Add carrots and mushrooms, cook for 2 minutes, then stir in tomato paste and cook for another minute.</li>
+                            <li>Add canned tomatoes, parsley, and basil. Mash and stir tomatoes until the sauce thickens, about 5 minutes over medium-high heat.</li>
+                            <li>Reduce heat to low and simmer gently while preparing meatballs, stirring occasionally.</li>
+                        </ol>
+                        <p>prepare the meatballs</p>
+                        <ol>
+                            <li>In a large bowl, mix together beef, Italian sausage, basil, parsley, mushrooms, eggs, breadcrumbs, cheese, salt, and pepper.</li>
+                            <li>Use a small melon baller, cookie scoop, or teaspoon to form 1-inch round meatballs. Roll and compress into tight balls.</li>
+                            <li>In a separate wide, shallow pan, heat olive oil over medium-high heat.</li>
+                            <li>Brown the meatballs on all sides, about 2 to 3 minutes. Depending on pan size, you may need to brown in batches.</li>
+                            <li>Towards the end of browning, add a little red wine to deglaze the pan.</li>
+                        </ol>
+                        <p>prepare the pasta</p>
+                        <ol>
+                            <li>Add red wine to the sauce, stir in cheese, and add salt to taste.</li>
+                            <li>Add the browned meatballs to the sauce and gently stir.</li>
+                            <li>Simmer the sauce and meatballs for 30 to 45 minutes, stirring occasionally.</li>
+                            <li>While the sauce simmers, bring a large pot with 4 quarts of salted water to a boil.</li>
+                            <li>Add pasta to the boiling water and cook uncovered on high heat for 8 to 10 minutes or according to package directions.</li>
+                            <li>Drain cooked pasta.</li>
+                            <li>Place a thin layer of sauce on each plate, add pasta, sauce, and meatballs, then sprinkle with grated Parmesan-Romano cheese.</li>
+                        </ol>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #bde0fe;
+}
+
+b{
+    color: black
+}
+
+header, .HTML, .CSS{
+    Margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+header h1, div{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+header h1, h2{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+}
+
+code{
+    font-style: bold;
+    color: #569CD6
+}
+
+pre{
+    background-color: #edede9;
+    text-align: center;
+    font-family: "Syne", sans-serif;
+}

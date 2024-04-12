@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Images</title>
+    <link rel ="stylesheet" href="chapter3.css"> <!--reference link to stylesheet-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!--reference link for font-->
+</head>
+<body>
+    <header>
+        <h1>THE SEASONS: WITH CSS FILTERS</h1> <!--heaeder title-->
+        <h6>hover over the images to indicate filter, click on title to view original image</h6>
+    </header>
+
+    <div class="images"> <!--section of images-->
+        <div class="container"> <!--to divide into 2 coloumns-->
+            <div class="saturate"><!--saturate image-->
+                <img src="autumn.jpeg" alt="Autumn" width="640" height="427" title="autumn image with saturation filter "> <!--paste image in og size--> <!--title; show text when img is hovered-->
+                <a href="https://pixabay.com/photos/road-forest-fall-path-trail-trees-1072821/"><figcaption> AUTUMN &copy;Vali Sabau</figcaption></a> <!--link to reference image--> <!--figcaption; image caption-->
+            </div>
+            <div class="grayscale">
+                <img src="spring.jpeg" alt="spring" width="640" height="427" title="spring image with grayscale filter ">
+                <a href="https://pixabay.com/photos/tree-sunrise-field-prairie-meadow-7186835/"><figcaption> SPRING &copy;Ramon Perucho</figcaption></a>
+            </div>
+        </div>
+       
+        <div class="invert">
+            <img src="winter.jpeg" alt="winter" width="640" height="427" title="winter image with invert filter ">
+            <a href="https://pixabay.com/photos/winter-trees-snow-winter-landscape-8435314/"><figcaption> WINTER &copy;Nicky Pe</figcaption></a>
+        </div>
+    </div>
+</body>
+</html>
